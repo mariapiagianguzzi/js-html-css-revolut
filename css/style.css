@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  /* CLASSI UTILITY */
+
+.bg {
+    background-color: rgb(199, 21, 169);
+    color: white !important;
+} 
+
+.btn {
+    border-radius: 50px !important ;
+    text-align: center !important;
+} 
+
+a{
+    text-decoration: none;
+  }
+  
+ul{
+    list-style-type: none;
+}
+  
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 35px;
+} 
+nav {
+    margin-bottom: 0 !important;
+    border: none !important;
+} 
+
+nav ul li a {
+    color: rgb(139, 149, 158);
+}
+  
+nav ul li a.selected, nav ul li a:hover {
+    color: rgb(25, 28, 31);
+} 
+
+.has-apex .apex {
+    color: rgb(240, 12, 149);
+    font-size: 12px;
+    font-weight: bold;
+    top: -8px;
+    right: -25px;
+}
+
+.dropdown.visible{
+    display: block;
+}
+  
+.dropdown li{
+    margin: 0;
+    padding: 12px 12px;
+}
+  
+
+
+
+
+
